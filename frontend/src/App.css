@@ -1,0 +1,41 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.main-content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.board-container{
+  width: min(90w, 600px);
+  aspect-ratio: 1 / 1;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #444444;
+}
